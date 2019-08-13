@@ -58,7 +58,7 @@ public class TragamonedasTest {
 		Tambor tambor3Mock = mock(Tambor.class);
 
 		when(factory.crearTambor(1)).thenReturn(tambor1Mock);
-		when(factory.crearTambor(1)).thenReturn(tambor2Mock);
+		when(factory.crearTambor(2)).thenReturn(tambor2Mock);
 		when(factory.crearTambor(3)).thenReturn(tambor3Mock);
 		
 		when(tambor2Mock.obtenerPosicion()).thenReturn(3);
